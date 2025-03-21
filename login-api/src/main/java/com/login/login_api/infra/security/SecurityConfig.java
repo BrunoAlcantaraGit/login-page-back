@@ -53,13 +53,5 @@ public class SecurityConfig {
     }
 
 
-    /*@Bean
-    public FilterRegistrationBean<SecurityFilter> securityFilterRegistration() {
-        FilterRegistrationBean<SecurityFilter> registrationBean = new FilterRegistrationBean<>();
-        registrationBean.setFilter(new SecurityFilter());
-        registrationBean.addUrlPatterns("/produtos/**");  // Define as rotas que o filtro deve proteger
-        return registrationBean;
-    }*/
-
 
 }
